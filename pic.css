@@ -1,0 +1,160 @@
+#pic-block{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    overflow: hidden;
+}
+#else-block{
+    box-sizing: content-box;
+    position: relative;
+    top: -200px;
+    width: 200px;
+    height: 200px;
+    
+    border-bottom: 200px solid rgba(0,149,203,1);
+    border-right: 200px solid rgba(0,149,203,1);
+}
+#down-bee{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    background: linear-gradient( to right, yellow 50%, orange 50%) repeat-x;
+    background-size: 20px;
+}
+.grass{
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    border: 7px solid green;
+    border-radius: 50%;
+}
+
+#grass-1{
+    bottom: -22px;
+    left: 27px;
+    border-right: 22px solid transparent;
+}
+#grass-1::after{
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+    top:-3px;
+    left: 27px;
+}
+#grass-2{
+    bottom: -37px;
+    left: 87px;
+    border-right: 22px solid transparent;
+}
+#grass-2::after{
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+    top:-3px;
+    left: 27px;
+}
+#grass-3{
+    bottom: -37px;
+    left: 35px;
+    border-right: 22px solid transparent;
+    transform: scale(-1,-1);
+}
+#grass-3::after{
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+    top:140px;
+    left: 27px;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0% 100%);
+}
+#fish-1{
+    position: absolute;
+    top: 98px;
+    left: 23px;
+    transform: rotate(-15deg);
+}
+#fish-2{
+    position: absolute;
+    top: 123px;
+    left: 159px;
+    transform: scale(-0.7,0.7);
+}
+.fish-body{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, orange , yellow );
+    z-index: 2;
+}
+.fish-tail{
+    content: "";
+    z-index: 1;
+    top:0px;
+    left: -14px;
+    position: absolute;
+    border: 20px solid transparent; border-left: 35px solid orange;
+}
+.fish-tail::after{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 10px;
+    height: 40px;
+    top:-20px;
+    left: -39px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+.fish-eye{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top:16px;
+    left: 54px;
+    background-color: black;
+    border-radius: 50%;
+}
+.fish-gills{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    border: 4px solid red;
+    border-right: 4px solid transparent;
+    top:4px;
+    left: 37px;
+}
+.fish-deco{
+    position: absolute;
+    width: 10px;
+    height: 13px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    border: 3px solid red;
+    border-right: 3px solid transparent;
+}
+.sem-1{
+    top:1px;
+    left: 17px;
+}
+.sem-2{
+    top:13px;
+    left: 17px;
+}
+.sem-3{
+    top:25px;
+    left: 17px;
+}

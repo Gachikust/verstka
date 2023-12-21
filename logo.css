@@ -1,0 +1,68 @@
+#logo{
+    --logo-color:black;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+#tire{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border: solid black 10px;
+    border-radius: 50%;
+    top:5%;
+    left:5%;
+}
+#rim{
+    position: absolute;
+    width: 64%;
+    height: 64%;
+    border: solid black 5px;
+    border-radius: 50%;
+    top:18%;
+    left:18%;
+}
+#axis{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: solid black 5px;
+    border-radius: 50%;
+    top:40%;
+    left:40%;
+}
+.spoke{
+    position: absolute;
+    width: 5%;
+    height: 25%;
+    background-color: black;
+    
+}
+#spoke1{
+    top:21%;
+    left:47%;
+}
+#spoke2{
+    top:56%;
+    left:47%;
+}
+#spoke3{
+    top:29%;
+    left:64%;
+    transform: rotate(60deg);
+}
+#spoke4{
+    top:47%;
+    left:30%;
+    transform: rotate(60deg);
+}
+#spoke5{
+    top:48%;
+    left:64%;
+    transform: rotate(120deg);
+}
+#spoke6{
+    top:30%;
+    left:31%;
+    transform: rotate(120deg);
+}
